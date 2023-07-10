@@ -1,0 +1,99 @@
+.main_div{
+     /* border: 2px solid red; */
+     width: 400px;
+     background-color: #e9ecef;
+      height: auto;
+      margin: auto;
+      margin-top:100px;
+      box-shadow: 10px 10px 30px #888888 ;
+      font-family: serif;
+    }
+
+.sub_of_main{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.input_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+input{
+    padding: 9px;
+    width: 200px;
+}
+.submit_btn{
+    border-radius: 50px;
+    padding: 10px 30px;
+    background-color: #20c997;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.submit_btn:active
+{
+    background-color: #0db482;
+}
+.Loginsucess,.Sucessregister{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0db482;
+    color:white;
+    font-family: serif;
+    font-weight: bold;
+
+}
+.btn_div,.logout_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+   
+}
+
+.btn,.logout{
+    border-radius: 20px;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    background-color:#0db482 ;
+    font-size: 18px;
+ 
+}
+.home{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#0db482 ; 
+}
+.login_Register{
+    width: 300px;
+    font-size: 22px;
+    display: flex;
+    justify-content:space-around;
+    color: white; 
+}
+.path{
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 2px solid white;
+}
+.path:hover{
+  background-color: aliceblue;
+  color: #0db482;
+ 
+}
+.img{
+    width: 100px;
+    border-radius: 5px;
+}
